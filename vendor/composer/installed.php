@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'ins/ci-actions-xxx',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '7a67fe8ad933db98f8ba7d30cdc69c66c30965bf',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'ins/ci-actions-xxx' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '7a67fe8ad933db98f8ba7d30cdc69c66c30965bf',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
