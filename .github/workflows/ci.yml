@@ -33,4 +33,11 @@ jobs:
         run: chmod +x ./vendor/bin/phpunit
 
       - name: Ejecutar tests con PHPUnit
-        run: ./vendor/bin/phpunit
+        run: ./vendor/bin/phpunit --log-junit resultats.xml
+
+      - name: Pujar informe de resultats
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: resultats-IMO-php${{ matrix.php }}
+          path: resultats.xml
