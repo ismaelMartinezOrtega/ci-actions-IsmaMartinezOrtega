@@ -23,6 +23,9 @@ jobs:
       - name: Instalar dependencias con Composer
         run: composer install
 
+      - name: Generar autoloader
+        run: composer dump-autoload
+
       - name: Dar permisos a PHPUnit
         run: chmod +x ./vendor/bin/phpunit
 
