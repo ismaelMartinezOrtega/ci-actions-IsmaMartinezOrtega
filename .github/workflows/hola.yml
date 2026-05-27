@@ -1,0 +1,14 @@
+name: Hola Actions Isma
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  saluda:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Saluda
+        run: echo "Hola, GitHub Actions! Soc Isma"
