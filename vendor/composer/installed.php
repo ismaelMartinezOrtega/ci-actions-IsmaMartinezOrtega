@@ -3,7 +3,7 @@
         'name' => 'ins/ci-actions-xxx',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '7a67fe8ad933db98f8ba7d30cdc69c66c30965bf',
+        'reference' => '724bc4af64f7fa5345ef9670c1dbf5f6679767d0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'ins/ci-actions-xxx' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '7a67fe8ad933db98f8ba7d30cdc69c66c30965bf',
+            'reference' => '724bc4af64f7fa5345ef9670c1dbf5f6679767d0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
